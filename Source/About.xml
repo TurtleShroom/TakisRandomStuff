@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Taki's Random Stuff</name>
+  <author>Buck Taki</author>
+  <packageId>BuckTaki.RandomStuff</packageId>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>Adds Stuff to Rimworld. More detailed and whitty description TBD</description>
+</ModMetaData>
