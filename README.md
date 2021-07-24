@@ -7,16 +7,26 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
 
 - Replaced the bundled Universal Fermenter with the Universal Fermenter-mod prerequirement
 - Replaced the overwritten workgivers with patches
-- Removed the unmentioned stack-increase since this can be better achieved with mods like [https://steamcommunity.com/sharedfiles/filedetails/?id=826366050]Stack XXL for example
+- Removed the unmentioned stack-increase since this can be better achieved with mods like https://steamcommunity.com/sharedfiles/filedetails/?id=826366050]Stack XXL for example
+- Renamed the fermenting pots def since it overwrote the UF-definiton
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/TakisRandomStuff]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 Adds Stuff to Rimworld. 
 requirements
- - Jec's Tools -
+ - Jec&apos;s Tools -
 
 Addition 
      Oats - fast growing cereal
@@ -41,10 +51,10 @@ reduced yields on oat crop to 10 was at 20 was too much
 *** Added Ale which is made from fermenting barley
 *** Added Fermentation Jar 
 
-Load this mod before VG beverage and it shouldn't override the Universal Fermenter there
+Load this mod before VG beverage and it shouldn&apos;t override the Universal Fermenter there
 
 Added the Beginings of an alchemy system 
-Right now you can only grind to the base herbs. I really don't were to go from Here. What i am thinking is mixing and matching the base herbs for medicine that when not used for tending has some kind of bonus with reduced risk of addiction.
+Right now you can only grind to the base herbs. I really don&apos;t were to go from Here. What i am thinking is mixing and matching the base herbs for medicine that when not used for tending has some kind of bonus with reduced risk of addiction.
 
 Tell right now all herbs are made from medicine and only sooth pain.
 
