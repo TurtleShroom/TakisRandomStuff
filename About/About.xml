@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Taki's Random Stuff (Continued)</name>
   <packageId>Mlie.TakisRandomStuff</packageId>
@@ -13,7 +13,7 @@
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
     </li>
     <li>
       <packageId>syrchalis.universalfermenter</packageId>
@@ -26,7 +26,7 @@
     <li>jecrell.jecstools</li>
     <li>syrchalis.universalfermenter</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Buck Takis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
 
@@ -35,7 +35,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
 - Removed the unmentioned stack-increase since this can be better achieved with mods like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=826366050]Stack XXL[/url] for example
 - Renamed the fermenting pots def since it overwrote the UF-definiton
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -44,10 +44,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Adds Stuff to Rimworld. 
 requirements
- - Jec&apos;s Tools -
+ - Jec's Tools -
 
 Addition 
      Oats - fast growing cereal
@@ -72,10 +72,10 @@ reduced yields on oat crop to 10 was at 20 was too much
 *** Added Ale which is made from fermenting barley
 *** Added Fermentation Jar 
 
-Load this mod before VG beverage and it shouldn&apos;t override the Universal Fermenter there
+Load this mod before VG beverage and it shouldn't override the Universal Fermenter there
 
 Added the Beginings of an alchemy system 
-Right now you can only grind to the base herbs. I really don&apos;t were to go from Here. What i am thinking is mixing and matching the base herbs for medicine that when not used for tending has some kind of bonus with reduced risk of addiction.
+Right now you can only grind to the base herbs. I really don't were to go from Here. What i am thinking is mixing and matching the base herbs for medicine that when not used for tending has some kind of bonus with reduced risk of addiction.
 
 Tell right now all herbs are made from medicine and only sooth pain.
 
@@ -88,7 +88,7 @@ Tell me what you think.
 
 Screen shots to come sorry .
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
