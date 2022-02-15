@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
 - Replaced the overwritten workgivers with patches
 - Removed the unmentioned stack-increase since this can be better achieved with mods like https://steamcommunity.com/sharedfiles/filedetails/?id=826366050]Stack XXL for example
 - Renamed the fermenting pots def since it overwrote the UF-definiton
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

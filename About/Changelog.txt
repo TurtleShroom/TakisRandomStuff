@@ -1,5 +1,8 @@
 # Changelog for TakisRandomStuff
 
+1.3.1 - Added support for the Oats in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url]
+
+
 1.0.2.0 - Added support for Simple FX: Smoke
 
 
