@@ -1,5 +1,8 @@
 # Changelog for TakisRandomStuff
 
+1.3.2 - Added support for RC2 Barley
+
+
 1.3.1 - Added support for the Oats in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748889667]Vanilla Plants Expanded - More Plants[/url]
 
 
