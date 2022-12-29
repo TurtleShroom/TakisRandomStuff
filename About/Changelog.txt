@@ -1,5 +1,8 @@
 # Changelog for TakisRandomStuff
 
+1.4.1 - Updated to 1.4
+
+
 1.3.2 - Added support for RC2 Barley
 
 
