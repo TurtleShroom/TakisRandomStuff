@@ -101,7 +101,7 @@
       <li>
         <filter>
           <categories>
-            <li>FruitFoodRaw</li>
+            <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
           </categories>
           <thingDefs>
             <li>RawBerries</li>
@@ -144,7 +144,7 @@
       <li>
         <filter>
           <categories>
-            <li>FruitFoodRaw</li>
+            <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
           </categories>
           <thingDefs>
             <li>RawBerries</li>

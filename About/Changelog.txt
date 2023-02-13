@@ -1,5 +1,8 @@
 # Changelog for TakisRandomStuff
 
+1.4.2 - Fixed VGP mayrequire on the FruitFoodRaw, thanks TurtleShroom
+
+
 1.4.1 - Updated to 1.4
 
 
