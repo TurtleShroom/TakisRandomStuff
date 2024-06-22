@@ -57,7 +57,7 @@
       </recipeUsers>
     </recipeMaker>
     <comps>
-      <li Class="PawnShields.CompProperties_Shield">
+      <li Class="AR_PawnShields.CompProperties_Shield" MayRequire="mlie.ancientrimcore">
         <!-- Rendering systems -->
         <wieldedGraphic>
           <graphicClass>Graphic_Single</graphicClass>
@@ -124,7 +124,7 @@
       </recipeUsers>
     </recipeMaker>
     <comps>
-      <li Class="PawnShields.CompProperties_Shield">
+      <li Class="AR_PawnShields.CompProperties_Shield" MayRequire="mlie.ancientrimcore">
         <!-- Rendering systems -->
         <wieldedGraphic>
           <graphicClass>Graphic_Single</graphicClass>
