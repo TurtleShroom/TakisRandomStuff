@@ -65,7 +65,7 @@
           <texPath>Things/Shields/Neolithic/AncientMediumWoodenShield</texPath>
           <drawSize>(1.1, 1.1)</drawSize>
         </wieldedGraphic>
-        <renderProperties>
+        <renderProperties MayRequire="jecrell.jecstools">
           <!-- Same as defaults in C# -->
           <northOffset>(-0.3, -0.017, -0.3)</northOffset>
           <southOffset>(0.3, 0.033, -0.3)</southOffset>
@@ -127,7 +127,7 @@
     <comps>
       <li Class="PawnShields.CompProperties_Shield" MayRequire="jecrell.jecstools">
         <!-- Rendering systems -->
-        <wieldedGraphic MayRequire>
+        <wieldedGraphic MayRequire="jecrell.jecstools">
           <graphicClass>Graphic_Single</graphicClass>
           <texPath>Things/Shields/Neolithic/Maasai</texPath>
           <drawSize>(1.1, 1.1)</drawSize>
