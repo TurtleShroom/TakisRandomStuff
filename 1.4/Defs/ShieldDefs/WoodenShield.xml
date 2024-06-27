@@ -5,6 +5,7 @@
     <label>BaseShield</label>
     <equipmentType>None</equipmentType>
     <techLevel>Neolithic</techLevel>
+	<description>DUDE! WHERE'S MY DESCRIPTION?</description>
     <tools>
       <li>
         <label>side</label>
@@ -57,9 +58,9 @@
       </recipeUsers>
     </recipeMaker>
     <comps>
-      <li Class="PawnShields.CompProperties_Shield">
+      <li Class="PawnShields.CompProperties_Shield" MayRequire="jecrell.jecstools">
         <!-- Rendering systems -->
-        <wieldedGraphic>
+        <wieldedGraphic MayRequire="jecrell.jecstools">
           <graphicClass>Graphic_Single</graphicClass>
           <texPath>Things/Shields/Neolithic/AncientMediumWoodenShield</texPath>
           <drawSize>(1.1, 1.1)</drawSize>
@@ -83,7 +84,7 @@
         <shieldTakeDamage>true</shieldTakeDamage>
         <shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
         <!-- Auto discard system (Optional) -->
-        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <canBeAutoDiscarded>false</canBeAutoDiscarded>
         <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
         <!-- Shield fatigue system (Optional) -->
         <useFatigue>true</useFatigue>
@@ -124,14 +125,14 @@
       </recipeUsers>
     </recipeMaker>
     <comps>
-      <li Class="PawnShields.CompProperties_Shield">
+      <li Class="PawnShields.CompProperties_Shield" MayRequire="jecrell.jecstools">
         <!-- Rendering systems -->
-        <wieldedGraphic>
+        <wieldedGraphic MayRequire>
           <graphicClass>Graphic_Single</graphicClass>
           <texPath>Things/Shields/Neolithic/Maasai</texPath>
           <drawSize>(1.1, 1.1)</drawSize>
         </wieldedGraphic>
-        <renderProperties>
+        <renderProperties MayRequire="jecrell.jecstools">
           <!-- Same as defaults in C# -->
           <northOffset>(-0.3, -0.017, -0.1)</northOffset>
           <southOffset>(0.3, 0.033, -0.1)</southOffset>
@@ -150,7 +151,7 @@
         <shieldTakeDamage>true</shieldTakeDamage>
         <shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
         <!-- Auto discard system (Optional) -->
-        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <canBeAutoDiscarded>false</canBeAutoDiscarded>
         <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
         <!-- Shield fatigue system (Optional) -->
         <useFatigue>true</useFatigue>

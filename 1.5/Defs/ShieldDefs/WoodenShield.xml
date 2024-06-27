@@ -28,6 +28,7 @@
   <ThingDef ParentName="ShieldBase">
     <defName>SimpleWoodenShield</defName>
     <label>Simple Wooden Shield</label>
+	<description>A primitive, basic shield used to offer some protection for low-ranking (and expendable) soldiers. While it can deflect arrows, its usage against bullets is minimal.</description>
     <graphicData>
       <texPath>Things/Shields/Neolithic/AncientMediumWoodenShield</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -83,7 +84,7 @@
         <shieldTakeDamage>true</shieldTakeDamage>
         <shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
         <!-- Auto discard system (Optional) -->
-        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <canBeAutoDiscarded>false</canBeAutoDiscarded>
         <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
         <!-- Shield fatigue system (Optional) -->
         <useFatigue>true</useFatigue>
@@ -94,6 +95,7 @@
   <ThingDef ParentName="ShieldBase">
     <defName>Maasai</defName>
     <label>Maasai</label>
+    <description>As hideous as it is effective, this ugly shield is common throughout parts of Old Earth's sub-Saharan Africa and has many different names. In southern Africa, it is traditionally made of leather (such as cow hide), while in other parts of the continent, it is made of wood. \n \n On Old Earth, no soldier in the history of Ancient Egypt would be caught dead with something this ugly and simplistic, but the eons separating the Pharaohs of the Rim from their original counterparts led to widespread incorporation of this shield into the arsenal of light skirmishers and low-ranking soldiery.</description>
     <graphicData>
       <texPath>Things/Shields/Neolithic/Maasai</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -150,7 +152,7 @@
         <shieldTakeDamage>true</shieldTakeDamage>
         <shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
         <!-- Auto discard system (Optional) -->
-        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <canBeAutoDiscarded>false</canBeAutoDiscarded>
         <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
         <!-- Shield fatigue system (Optional) -->
         <useFatigue>true</useFatigue>
