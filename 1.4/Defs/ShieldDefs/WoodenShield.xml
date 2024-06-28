@@ -42,16 +42,13 @@
       <Mass>4.0</Mass>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <ShootingAccuracyPawn>-0.25</ShootingAccuracyPawn>
       <!--MoveSpeed>-1.6</MoveSpeed-->
     </equippedStatOffsets>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
-    <costList>
-      <WoodLog>30</WoodLog>
-    </costList>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
@@ -108,17 +105,14 @@
       <Mass>4.0</Mass>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <ShootingAccuracyPawn>-0.33</ShootingAccuracyPawn>
       <!--MoveSpeed>-1.6</MoveSpeed-->
     </equippedStatOffsets>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>40</costStuffCount>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
+    <costStuffCount>60</costStuffCount>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
