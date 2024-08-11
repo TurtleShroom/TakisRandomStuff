@@ -1,18 +1,17 @@
-# TakisRandomStuff
+# [Taki's Random Stuff (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2483488820)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Buck Takis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1672676409
 
-- Replaced the bundled Universal Fermenter with the Universal Fermenter-mod prerequirement
+- Replaced the bundled Universal Fermenter with the ~~Universal Fermenter~~ Processor Framework-mod prerequirement
 - Replaced the overwritten workgivers with patches
-- Removed the unmentioned stack-increase since this can be better achieved with mods like https://steamcommunity.com/sharedfiles/filedetails/?id=826366050]Stack XXL for example
+- Removed the unmentioned stack-increase since this can be better achieved with mods like [Stack XXL](https://steamcommunity.com/sharedfiles/filedetails/?id=826366050) for example
 - Renamed the fermenting pots def since it overwrote the UF-definiton
-- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
+- Added support for [Simple FX: Smoke](https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -65,10 +64,12 @@ Screen shots to come sorry .
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2483488820]Last updated 2023-02-13
+
+[![Image](https://img.shields.io/github/v/release/emipa606/TakisRandomStuff?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2483488820)
