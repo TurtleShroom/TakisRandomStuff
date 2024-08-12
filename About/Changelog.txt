@@ -1,5 +1,8 @@
 # Changelog for TakisRandomStuff
 
+1.5.0 - Updated for 1.5. Uses included shield-code instead of Jecs
+
+
 1.4.2 - Fixed VGP mayrequire on the FruitFoodRaw, thanks TurtleShroom
 
 
