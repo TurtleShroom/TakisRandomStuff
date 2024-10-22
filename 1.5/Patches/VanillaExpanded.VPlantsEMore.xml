@@ -1,14 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Patch>
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VCE_RawOats"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VCE_RawOats"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="VCE_RawOats"]</xpath>
+    <xpath>/Defs/ThingDef[defName="VCE_RawOats"]/thingCategories</xpath>
     <success>Always</success>
     <match Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VCE_RawOats"]</xpath>
+      <xpath>Defs/ThingDef[defName="VCE_RawOats"]/thingCategories</xpath>
       <value>
-        <thingCategories>
           <li>Cereal</li>
-        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+  
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="GAB_Barley"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="GAB_Barley"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="GAB_Barley"]/thingCategories</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GAB_Barley"]/thingCategories</xpath>
+      <value>
+          <li>Cereal</li>
+      </value>
+    </match>
+  </Operation>
+  
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[@Name="GAB_GrainFoodRawBase"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="GAB_GrainFoodRawBase"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[@Name="GAB_GrainFoodRawBase"]/thingCategories</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name="GAB_GrainFoodRawBase"]/thingCategories</xpath>
+      <value>
+          <li>Cereal</li>
       </value>
     </match>
   </Operation>

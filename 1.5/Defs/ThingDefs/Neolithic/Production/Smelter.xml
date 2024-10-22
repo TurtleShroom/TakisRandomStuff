@@ -19,10 +19,11 @@
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <costList>
-      <WoodLog>10</WoodLog>
+      <!-- <WoodLog>10</WoodLog> -->
     </costList>
     <stuffCategories>
       <li>Stony</li>
+	  <li>Metallic</li>
     </stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -40,22 +41,30 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <!-- <constructionSkillPrerequisite>4</constructionSkillPrerequisite> -->
     <recipes>
       <li>ExtractMetalFromSlag</li>
       <li>SmeltWeapon</li>
       <li>DestroyWeapon</li>
+	  <li MayRequire="dubwise.dubsskylights">SmeltGlass</li>
+	  <li MayRequire="biomesteam.biomescaverns,dubwise.dubsskylights">BMT_Sand_SmeltGlass</li>
+	  <li MayRequire="biomesteam.biomescaverns,dubwise.dubsskylights">BMT_Sand_SmeltGlass4x</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>100.0</fuelConsumptionRate>
+        <fuelConsumptionRate>87.0</fuelConsumptionRate>
         <fuelCapacity>50.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+				<li>WoodLog</li>
+				<li>Chemfuel</li>
+				<li MayRequire="sihv.rombones">BoneItem</li>
+				<li MayRequire="sarg.alphabiomes">AB_Propane</li>
+				<li MayRequire="Dubwise.Rimefeller">OilBarrel</li>
+				<li MayRequire="syrchalis.harpy">RawHarpyChilis</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>

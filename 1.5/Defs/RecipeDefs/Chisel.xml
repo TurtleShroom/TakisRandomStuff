@@ -8,9 +8,11 @@
     <effectWorking>CutStone</effectWorking>
     <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
     <targetCountAdjustment>20</targetCountAdjustment>
+	<!--
     <skillRequirements>
       <Construction>3</Construction>
     </skillRequirements>
+	-->
     <recipeUsers>
       <li>StoneChippingSpot</li>
       <li>StoneWorkingStation</li>

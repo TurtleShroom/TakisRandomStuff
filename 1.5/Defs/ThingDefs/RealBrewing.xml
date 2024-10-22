@@ -130,7 +130,7 @@
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Alcohol</chemical>
-        <addictiveness>0.010</addictiveness>
+        <addictiveness>0.03</addictiveness>
         <minToleranceToAddict>0.25</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>1</needLevelOffset>
@@ -154,7 +154,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>AleWort</defName>
     <label>alewort</label>
-    <description>Un-fermented beer. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
+    <description>Un-fermented ale. This substance needs to ferment in a fermenting barrel before it becomes drinkable ale.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Wort</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +183,7 @@
   <RecipeDef>
     <defName>Make_AleWort</defName>
     <label>make ale wort</label>
-    <description>Make ale wort from hops.</description>
+    <description>Make ale wort from barley, oats, or other grains.</description>
     <jobString>Making wort.</jobString>
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
@@ -195,18 +195,45 @@
     <ingredients>
       <li>
         <filter>
+			<categories>
+				<li>Cereals</li>
+			</categories>
           <thingDefs>
             <li>RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawAmaranth</li>
+			<li MayRequire="vanillaexpanded.vplantsemore">VCE_RawBuckwheat</li>
+			<li MayRequire="TSP.Isengriff.Storytime">GnomeRoot</li>
           </thingDefs>
         </filter>
         <count>25</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
+		<categories>
+			<li>Cereals</li>
+		</categories>
       <thingDefs>
-        <li>RawBarley</li>
+			<li>RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawSorghum</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawTriticale</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawAmaranth</li>
+			<li MayRequire="vanillaexpanded.vplantsemore">VCE_RawBuckwheat</li>
+			<li MayRequire="TSP.Isengriff.Storytime">GnomeRoot</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<thingDefs>
+			<li>RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawBarley</li>
+			<li MayRequire="tidal.grainsandbrewing">GAB_RawRye</li>
+		</thingDefs>
+	</defaultIngredientFilter>
     <products>
       <AleWort>5</AleWort>
     </products>

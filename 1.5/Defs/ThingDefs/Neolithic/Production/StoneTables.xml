@@ -74,9 +74,6 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costStuffCount>15</costStuffCount>
-    <costList>
-      <WoodLog>5</WoodLog>
-    </costList>
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>
@@ -119,9 +116,6 @@
       <li>Stony</li>
     </stuffCategories>
     <costStuffCount>30</costStuffCount>
-    <costList>
-      <WoodLog>25</WoodLog>
-    </costList>
     <graphicData>
       <texPath>Buildings/Neolithic/StoneResearchBlock/StoneResearchBlock</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
