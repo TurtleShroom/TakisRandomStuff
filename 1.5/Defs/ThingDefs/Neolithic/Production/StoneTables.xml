@@ -23,9 +23,6 @@
       </damageData>
     </graphicData>
     <costStuffCount>30</costStuffCount>
-    <costList>
-      <WoodLog>30</WoodLog>
-    </costList>
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>

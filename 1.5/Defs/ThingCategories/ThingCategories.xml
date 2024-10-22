@@ -8,7 +8,7 @@
   <ThingCategoryDef>
     <defName>GrainandLentils</defName>
     <label>GrainAndLentils</label>
-    <parent>PlantFoodRaw</parent>
+    <parent>Cereal</parent>
     <iconPath>Ui/Icons/ThingCategories/FoodRaw</iconPath>
   </ThingCategoryDef>
   <ThingCategoryDef>

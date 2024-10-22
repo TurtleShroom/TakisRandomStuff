@@ -18,13 +18,10 @@
       <WorkToMake>1200</WorkToMake>
       <Mass>1.6</Mass>
     </statBases>
-    <equippedAngleOffset>-55</equippedAngleOffset>
+    <equippedAngleOffset>55</equippedAngleOffset>
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
-      <WoodLog>3</WoodLog>
-    </costList>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
@@ -73,9 +70,6 @@
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
-      <WoodLog>3</WoodLog>
-    </costList>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
@@ -123,9 +117,6 @@
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
@@ -189,9 +180,6 @@
     <stuffCategories>
       <li>Stony</li>
     </stuffCategories>
-    <costList>
-      <WoodLog>3</WoodLog>
-    </costList>
     <recipeMaker>
       <recipeUsers>
         <li>CraftingSpot</li>
@@ -254,6 +242,7 @@
     <techLevel>Neolithic</techLevel>
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
+	  <li>Slinger</li>
     </weaponTags>
     <costStuffCount>5</costStuffCount>
     <statBases>
@@ -277,7 +266,8 @@
     </verbs>
     <equippedAngleOffset>0</equippedAngleOffset>
     <stuffCategories>
-      <li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
     </stuffCategories>
     <recipeMaker>
       <recipeUsers>

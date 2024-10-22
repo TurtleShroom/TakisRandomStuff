@@ -22,6 +22,12 @@
         <count>2</count>
       </li>
     </ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Cereal</li>
+		</categories>
+		<thingDefs></thingDefs>
+	</fixedIngredientFilter>
     <products>
       <BowlOfPorridge>5</BowlOfPorridge>
     </products>
@@ -63,6 +69,9 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+		<categories>
+			<li>Cereal</li>
+		</categories>
       <thingDefs>
         <li>Milk</li>
       </thingDefs>
@@ -102,6 +111,7 @@
         <filter>
           <categories>
             <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
+			<li MayRequire="vanillaexpanded.vplantse">VCE_Fruit</li>
           </categories>
           <thingDefs>
             <li>RawBerries</li>
@@ -110,6 +120,16 @@
         <count>1</count>
       </li>
     </ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Cereal</li>
+            <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
+			<li MayRequire="vanillaexpanded.vplantse">VCE_Fruit</li>
+		</categories>
+		<thingDefs>
+			<li>RawBerries</li>
+		</thingDefs>
+	</fixedIngredientFilter>
     <products>
       <BowlOfSweetPorridge>5</BowlOfSweetPorridge>
     </products>
@@ -145,6 +165,7 @@
         <filter>
           <categories>
             <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
+			<li MayRequire="vanillaexpanded.vplantse">VCE_Fruit</li>
           </categories>
           <thingDefs>
             <li>RawBerries</li>
@@ -162,8 +183,14 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+		<categories>
+			<li>Cereal</li>
+            <li MayRequire="dismarzero.vgp.vgpmoreveggies">FruitFoodRaw</li>
+			<li MayRequire="vanillaexpanded.vplantse">VCE_Fruit</li>
+		</categories>
       <thingDefs>
         <li>Milk</li>
+		<li>RawBerries</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
