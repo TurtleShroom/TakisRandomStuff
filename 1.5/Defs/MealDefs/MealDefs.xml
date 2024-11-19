@@ -6,6 +6,7 @@
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <statBases>
+		<Mass>0.11</Mass>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Beauty>0</Beauty>
@@ -21,18 +22,18 @@
     </thingCategories>
     <alwaysHaulable>true</alwaysHaulable>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li Class="CompProperties_Ingredients" />
-      <li Class="CompProperties_FoodPoisonable" />
+      <li Class="CompProperties_Forbiddable"></li>
+      <li Class="CompProperties_Ingredients"></li>
+      <li Class="CompProperties_FoodPoisonable"></li>
     </comps>
     <pathCost>15</pathCost>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
     <uiIconForStackCount>1</uiIconForStackCount>
     <ingestible>
-      <foodType>Meal</foodType>
+      <foodType>Meal, Seed</foodType>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
     </ingestible>
   </ThingDef>
   <ThingDef ParentName="PottedMealBase" Name="PottedMealRottable" Abstract="True">
@@ -42,7 +43,7 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-    <tradeability>Buyable</tradeability>
+    <tradeability>All</tradeability>
   </ThingDef>
   <ThingDef ParentName="PottedMealRottable">
     <defName>BowlOfPorridge</defName>
@@ -56,7 +57,7 @@
       <MarketValue>0.2</MarketValue>
       <WorkToMake>300</WorkToMake>
       <Nutrition>0.7</Nutrition>
-      <Mass>0.35</Mass>
+      <Mass>0.1</Mass>
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>

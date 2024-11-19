@@ -6,6 +6,7 @@
     <description>Cereal grain used for livestock feed, cooked for food.</description>
     <graphicData>
       <texPath>Things/Item/Resource/RawFoods/Cereal/Oats</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>
@@ -28,6 +29,7 @@
     <description>Cereal grain used for livestock feed, cooked for food, and can be brewed into beer wort</description>
     <graphicData>
       <texPath>Things/Item/Resource/RawFoods/Cereal/Barley</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>

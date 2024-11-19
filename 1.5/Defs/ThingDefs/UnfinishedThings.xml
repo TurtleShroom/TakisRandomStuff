@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="UnfinishedBase">
-    <defName>ClayCookingPot</defName>
-    <label>Clay Pot</label>
-    <statBases>
-      <Flammability>0.5</Flammability>
-    </statBases>
-    <graphicData>
-      <texPath>Things/UnfinishedItems/PorridgeInClayPot</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <stuffCategories Inherit="false" />
-  </ThingDef>
+	<ThingDef ParentName="UnfinishedBase">
+		<thingClass>UnfinishedThing</thingClass>
+		<defName>ClayCookingPot</defName>
+		<label>unfinished pottery</label>
+		<isUnfinishedThing>true</isUnfinishedThing>
+		<statBases>
+			<Flammability>0.5</Flammability>
+			<Mass>1</Mass>
+		</statBases>
+		<graphicData Inherit="False">
+			<texPath>Things/UnfinishedItems/PorridgeInClayPot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories Inherit="False" IsNull="True"></stuffCategories>
+	</ThingDef>
 </Defs>

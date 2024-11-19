@@ -26,6 +26,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+		<Mass>7</Mass>
       <WorkToBuild>1200</WorkToBuild>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -73,6 +74,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
+		<Mass>7</Mass>
       <WorkToBuild>1200</WorkToBuild>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -124,6 +126,7 @@
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <statBases>
+		<Mass>7</Mass>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>1200</WorkToBuild>
       <Flammability>1.0</Flammability>

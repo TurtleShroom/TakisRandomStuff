@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
   <RecipeDef ParentName="CookMealBase">
     <defName>CookPotOfPorridge</defName>
@@ -6,7 +7,7 @@
     <description>Cook a pot of porridge enough nutrients for five people.</description>
     <jobString>Cooking a pot porridge.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <!-- <requiredGiverWorkType>Cooking</requiredGiverWorkType> -->
     <effectWorking>Cook</effectWorking>
     <unfinishedThingDef>ClayCookingPot</unfinishedThingDef>
     <soundWorking>Recipe_CookMeal</soundWorking>
@@ -18,6 +19,10 @@
           <categories>
             <li>Cereal</li>
           </categories>
+		  <thingDefs>
+			<li>RawBarley</li>
+			<li>RawOats</li>
+		  </thingDefs>
         </filter>
         <count>2</count>
       </li>
@@ -26,7 +31,10 @@
 		<categories>
 			<li>Cereal</li>
 		</categories>
-		<thingDefs></thingDefs>
+		<thingDefs>
+			<li>RawBarley</li>
+			<li>RawOats</li>
+		</thingDefs>
 	</fixedIngredientFilter>
     <products>
       <BowlOfPorridge>5</BowlOfPorridge>
@@ -44,7 +52,7 @@
     <description>Cook a pot of Delicous Creamy porridge enough nutrients and some flavor for five people.</description>
     <jobString>Cooking a pot porridge.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <!-- <requiredGiverWorkType>Cooking</requiredGiverWorkType> -->
     <effectWorking>Cook</effectWorking>
     <unfinishedThingDef>ClayCookingPot</unfinishedThingDef>
     <soundWorking>Recipe_CookMeal</soundWorking>
@@ -56,6 +64,10 @@
           <categories>
             <li>Cereal</li>
           </categories>
+		  <thingDefs>
+			<li>RawBarley</li>
+			<li>RawOats</li>
+		  </thingDefs>
         </filter>
         <count>1</count>
       </li>
@@ -73,7 +85,9 @@
 			<li>Cereal</li>
 		</categories>
       <thingDefs>
-        <li>Milk</li>
+			<li>Milk</li>
+			<li>RawBarley</li>
+			<li>RawOats</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -92,7 +106,7 @@
     <description>Cook a pot of sweet porridge enough nutrients and some flavor for five people.</description>
     <jobString>Cooking a pot porridge.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <!-- <requiredGiverWorkType>Cooking</requiredGiverWorkType> -->
     <effectWorking>Cook</effectWorking>
     <unfinishedThingDef>ClayCookingPot</unfinishedThingDef>
     <soundWorking>Recipe_CookMeal</soundWorking>
@@ -128,6 +142,8 @@
 		</categories>
 		<thingDefs>
 			<li>RawBerries</li>
+			<li>RawBarley</li>
+			<li>RawOats</li>
 		</thingDefs>
 	</fixedIngredientFilter>
     <products>
@@ -146,7 +162,7 @@
     <description>Cook a pot of Delicous Creamy Sweet porridge enough nutrients and flavor for five people.</description>
     <jobString>Cooking a pot porridge.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <!-- <requiredGiverWorkType>Cooking</requiredGiverWorkType> -->
     <effectWorking>Cook</effectWorking>
     <unfinishedThingDef>ClayCookingPot</unfinishedThingDef>
     <soundWorking>Recipe_CookMeal</soundWorking>
@@ -158,6 +174,10 @@
           <categories>
             <li>Cereal</li>
           </categories>
+		  <thingDefs>
+			<li>RawBarley</li>
+			<li>RawOats</li>
+		  </thingDefs>
         </filter>
         <count>1</count>
       </li>
@@ -189,8 +209,10 @@
 			<li MayRequire="vanillaexpanded.vplantse">VCE_Fruit</li>
 		</categories>
       <thingDefs>
-        <li>Milk</li>
+		<li>Milk</li>
 		<li>RawBerries</li>
+		<li>RawBarley</li>
+		<li>RawOats</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>

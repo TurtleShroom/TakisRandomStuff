@@ -1,24 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
   <ThingCategoryDef>
     <defName>MedicalHerbs</defName>
     <label>Medical Herbs</label>
     <parent>Drugs</parent>
     <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
   </ThingCategoryDef>
+  
   <!--=============== Herb Base ====================-->
-  <ThingDef ParentName="MakeableDrugBase" Name="HerbBase" Abstract="True">
+  <ThingDef ParentName="DrugBase" Name="HerbBase" Abstract="True">
     <thingClass>Medicine</thingClass>
     <stackLimit>750</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
+	<smallVolume>true</smallVolume>
     <ingestible>
-      <nurseable>true</nurseable>
-      <foodType>Processed, Fluid</foodType>
+      <nurseable>false</nurseable>
+      <foodType>Processed, Fluid, Liquor</foodType>
       <baseIngestTicks>100</baseIngestTicks>
-      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestSound>Ingest_Pill</ingestSound>
       <ingestCommandString>Apply {0}</ingestCommandString>
       <ingestReportString>Applying {0}.</ingestReportString>
       <drugCategory>Medical</drugCategory>
@@ -37,6 +40,11 @@
     <statBases>
       <MaxHitPoints>10</MaxHitPoints>
     </statBases>
+	<comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1505</listOrder>
+      </li>
+    </comps>
   </ThingDef>
   <ThingDef ParentName="HerbBase">
     <defName>GreenHerb</defName>
@@ -65,30 +73,11 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>DrugLab</li>
-      </recipeUsers>
-      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <skillRequirements>
-        <Medicine>2</Medicine>
-        <Intellectual>2</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
+	<smallVolume>true</smallVolume>
     <costList>
       <MedicineHerbal>1</MedicineHerbal>
     </costList>
-    <comps>
-      <li Class="CompProperties_Drug">
-        <listOrder>1505</listOrder>
-        <overdoseSeverityOffset>
-          <min>0.01</min>
-          <max>0.03</max>
-        </overdoseSeverityOffset>
-      </li>
-    </comps>
+    <comps></comps>
   </ThingDef>
   <ThingDef ParentName="HerbBase">
     <defName>YellowHerb</defName>
@@ -117,30 +106,7 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>DrugLab</li>
-      </recipeUsers>
-      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <skillRequirements>
-        <Medicine>2</Medicine>
-        <Intellectual>2</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <MedicineHerbal>1</MedicineHerbal>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Drug">
-        <listOrder>1505</listOrder>
-        <overdoseSeverityOffset>
-          <min>0.01</min>
-          <max>0.03</max>
-        </overdoseSeverityOffset>
-      </li>
-    </comps>
+    <comps></comps>
   </ThingDef>
   <ThingDef ParentName="HerbBase">
     <defName>BlueHerb</defName>
@@ -169,30 +135,7 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>DrugLab</li>
-      </recipeUsers>
-      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <skillRequirements>
-        <Medicine>2</Medicine>
-        <Intellectual>2</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <MedicineHerbal>1</MedicineHerbal>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Drug">
-        <listOrder>1505</listOrder>
-        <overdoseSeverityOffset>
-          <min>0.01</min>
-          <max>0.03</max>
-        </overdoseSeverityOffset>
-      </li>
-    </comps>
+    <comps></comps>
   </ThingDef>
   <ThingDef ParentName="HerbBase">
     <defName>RedHerb</defName>
@@ -221,21 +164,6 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>DrugLab</li>
-      </recipeUsers>
-      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <skillRequirements>
-        <Medicine>2</Medicine>
-        <Intellectual>2</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <MedicineHerbal>1</MedicineHerbal>
-    </costList>
     <comps>
       <li Class="CompProperties_Drug">
         <listOrder>1505</listOrder>
@@ -246,6 +174,7 @@
       </li>
     </comps>
   </ThingDef>
+  
   <HediffDef>
     <defName>SoothPain</defName>
     <hediffClass>HediffWithComps</hediffClass>

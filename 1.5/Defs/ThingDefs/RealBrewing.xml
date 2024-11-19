@@ -61,7 +61,7 @@
     <tickerType>Rare</tickerType>
     <rotatable>false</rotatable>
     <designationCategory>Production</designationCategory>
-    <constructEffect>ConstructWood</constructEffect>
+    <!-- <constructEffect>ConstructWood</constructEffect> -->
     <researchPrerequisites>
       <li>Brewing</li>
     </researchPrerequisites>
@@ -77,7 +77,7 @@
     <processDays>3.3</processDays>
     <!-- in days, a day is 60,000 ticks -->
     <usesTemperature>true</usesTemperature>
-    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureSafe>-20~53.0</temperatureSafe>
     <temperatureIdeal>7.0~32.0</temperatureIdeal>
     <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
     <!-- percent per degree per hour -->
@@ -194,7 +194,7 @@
       <li>
         <filter>
 			<categories>
-				<li>Cereals</li>
+				<li>Cereal</li>
 			</categories>
           <thingDefs>
             <li>RawBarley</li>
@@ -212,7 +212,7 @@
     </ingredients>
     <fixedIngredientFilter>
 		<categories>
-			<li>Cereals</li>
+			<li>Cereal</li>
 		</categories>
       <thingDefs>
 			<li>RawBarley</li>

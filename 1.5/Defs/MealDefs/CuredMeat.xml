@@ -56,6 +56,9 @@
           <categories>
             <li>MeatRaw</li>
           </categories>
+		  <disallowedThingDefs>
+			<li>CuredMeat</li>
+		  </disallowedThingDefs>
         </filter>
         <count>1</count>
       </li>
@@ -65,7 +68,7 @@
     </products>
     <fixedIngredientFilter>
       <categories>
-        <li>FoodRaw</li>
+        <li>MeatRaw</li>
       </categories>
       <disallowedCategories>
         <li>AnimalProductRaw</li>
@@ -73,10 +76,13 @@
       <specialFiltersToDisallow>
         <li>AllowPlantFood</li>
       </specialFiltersToDisallow>
+	  <disallowedThingDefs>
+		<li>CuredMeat</li>
+	  </disallowedThingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <categories>
-        <li>FoodRaw</li>
+        <li>MeatRaw</li>
       </categories>
       <disallowedThingDefs>
         <li>CuredMeat</li>
