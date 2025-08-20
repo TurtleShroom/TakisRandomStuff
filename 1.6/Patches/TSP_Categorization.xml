@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<!--
+	<li MayRequire="mlie.takisrandomstuff">Cereal</li>
+	<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Cereal</li>
+	-->
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_MilletGrain"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_MilletGrain"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">Cereal</li>
+				<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Cereal</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_AmaranthGrain"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">Cereal</li>
+				<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Cereal</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_TeffGrain"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories/li[text()="DankPyon_Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories/li[text()="Cereal"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_TeffGrain"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">Cereal</li>
+				<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Cereal</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- vvenchov.vvnewharvestmedicinalplants -->
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LindenBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_ChamomileBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LemonBalmLeaves"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_GinsengRoots"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_YarrowBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_MarshmallowRoots"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_NettleLeaves"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_ThymeLeaves"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories/li[text()="VCE_Fruit"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories/li[text()="VCE_Fruit"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>	
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_HawthornBerries"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+				<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_EchinaceaBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_LavenderBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_CalendulaBlossoms"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]/thingCategories</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]</xpath>
+			<success>Always</success>
+			<value>
+				<thingCategories></thingCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]/thingCategories/li[text()="MedicalHerbs"]</xpath>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]/thingCategories</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VV_GinkgoLeaves"]/thingCategories</xpath>
+			<success>Always</success>
+			<value>
+				<li MayRequire="mlie.takisrandomstuff">MedicalHerbs</li>
+			</value>
+		</match>
+		<!--If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+</Patch>
